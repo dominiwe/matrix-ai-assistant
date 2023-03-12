@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "njpwerner.autodocstring",
+    "donjayamanne.python-environment-manager",
+    "esbenp.prettier-vscode",
+    "tamasfe.even-better-toml",
+    "batisteo.vscode-django",
+    "ms-python.vscode-pylance"
+  ]
+}
