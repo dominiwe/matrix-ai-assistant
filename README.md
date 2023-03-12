@@ -2,13 +2,13 @@
 
 ## Description
 
-This is a small bot for matrix which brings a little [chatgpt]-like assistant into any matrix room.
+This is a small bot for matrix which brings a little [chatgpt](https://openai.com/blog/chatgpt)-like assistant into any matrix room.
 
 This is written in python. Currently the code base is messy. Here is a list of things to be done or improved upon:
 
 - [ ] Restructure codebase, maybe check out other python projects for hints on how to best structure the project.
 - [ ] Containerize the application.
-- [ ] Replace/stop using [simplematrixbotlib] and just use [nio] directly.
+- [ ] Replace/stop using [simplematrixbotlib](https://github.com/i10b/simplematrixbotlib) and just use [nio](https://github.com/poljar/matrix-nio) directly.
 - [ ] Support encrypted rooms.
 - [ ] Handle things like connectivity loss to matrix server better.
 - [ ] More configuration options.
