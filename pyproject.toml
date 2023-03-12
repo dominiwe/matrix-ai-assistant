@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "matrix-ai-assistant"
+version = "0.1.0"
+description = "A matrix bot which accesses the openai api to imitate the behavior of chatgpt."
+authors = ["Domi <dominic@domdeck.ch>"]
+readme = "README.md"
+packages = [{include = "matrix_ai_assistant"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+logbook = "^1.5.3"
+python-benedict = "^0.28.3"
+python-dotenv = "^1.0.0"
+simplematrixbotlib = "^2.8.0"
+pandas = "^1.5.3"
+beautifulsoup4 = "^4.11.2"
+openai = "^0.27.0"
+mistletoe = "^1.0.1"
+
+[tool.poetry.scripts]
+matrix-ai-assistant = "matrix_ai_assistant.main:main"
+
+[build-system]
+requires = ["poetry-core>=1.4.0"]
+build-backend = "poetry.core.masonry.api"
