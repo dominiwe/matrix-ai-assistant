@@ -4,24 +4,6 @@
 
 This is a small bot for matrix which brings a little [chatgpt](https://openai.com/blog/chatgpt)-like assistant into any matrix room.
 
-This is written in python. Currently the code base is messy. Here is a list of things to be done or improved upon:
-
-- [ ] Restructure codebase, maybe check out other python projects for hints on how to best structure the project.
-- [ ] Containerize the application.
-- [ ] Replace/stop using [simplematrixbotlib](https://github.com/i10b/simplematrixbotlib) and just use [nio](https://github.com/poljar/matrix-nio) directly.
-- [ ] Support encrypted rooms.
-- [ ] Handle things like connectivity loss to matrix server better.
-- [ ] More configuration options.
-- [ ] Introduce a usage quota per room.
-- [ ] Save users in database and introduce a usage quota per user.
-- [ ] Better control over the openai API.
-    - [ ] Better control regarding token limit.
-    - [ ] Better error handling (currently hard to do with the openai package?).
-- [ ] Better control over the context and how much history is sent to the API.
-- [ ] More modularized way to interact with API in order to support more/different APIs.
-- [ ] Maybe rewrite this in a more suitable language than python.
-- [ ] Different database schema where active session is not based on timestamp.
-
 ## Install
 
 ```sh
@@ -49,3 +31,23 @@ Run the script:
 ```sh
 poetry run matrix-ai-assistant
 ```
+
+## About
+
+This is written in python. Currently the code base is messy. Here is a list of things to be done or improved upon:
+
+- [ ] Restructure codebase, maybe check out other python projects for hints on how to best structure the project.
+- [ ] Containerize the application.
+- [ ] Replace/stop using [simplematrixbotlib](https://github.com/i10b/simplematrixbotlib) and just use [nio](https://github.com/poljar/matrix-nio) directly.
+- [ ] Support encrypted rooms.
+- [ ] Handle things like connectivity loss to matrix server better.
+- [ ] More configuration options.
+- [ ] Introduce a usage quota per room.
+- [ ] Save users in database and introduce a usage quota per user.
+- [ ] Better control over the openai API.
+    - [ ] Better control regarding token limit.
+    - [ ] Better error handling (currently hard to do with the openai package?).
+- [ ] Better control over the context and how much history is sent to the API.
+- [ ] More modularized way to interact with API in order to support more/different APIs.
+- [ ] Maybe rewrite this in a more suitable language than python.
+- [ ] Different database schema where active session is not based on timestamp.
