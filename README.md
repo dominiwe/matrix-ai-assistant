@@ -2,7 +2,7 @@
 
 ## Description
 
-Update: I am currently rewriting the whole bot in go. Also I just got access to GPT-4, so the next version will support specifying the endpoint.
+Currently rewriting the whole bot in go because python packaging is a pain. 
 
 This is a small bot for matrix which brings a little [chatgpt](https://openai.com/blog/chatgpt)-like assistant into any matrix room.
 
