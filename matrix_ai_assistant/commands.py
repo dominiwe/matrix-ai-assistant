@@ -402,37 +402,6 @@ def ai_api_request(messages, result):
     )
     result[0] = response
 
-#async def generic_gradual(room_id: str, bot: botlib.Bot, message: str):
-
-    # create room if it doesn't exist
-
-    # create session if it doesn't exist
-
-    # check if session has conversation
-        # last message should be from assisstant!
-
-    # add user message to db
-
-    # get conversation from db (limit 50)
-
-    # interact with api
-
-    # lock session hash in memory store
-
-    # create response matrix message
-
-    # update response message continually until DONE or timeout
-
-    # unlock session hash in memory store
-
-    # save assistant response to db
-
-            # response = openai.ChatCompletion.create(
-            #     model="gpt-3.5-turbo", messages=[{"role": "user", "content": "hey"}]
-            # )
-            # print(response)
-            # await bot.api.send_text_message(room.room_id, "I was mentioned")
-
 async def new_error(room_id: str, bot: botlib.Bot):
     await bot.api.send_markdown_message(room_id, "Could not create new session. Please provide a prompt.")
     return
